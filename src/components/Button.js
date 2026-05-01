@@ -40,10 +40,12 @@ transition: all 0.2s ease;
 
 
 const Button = ({text, link}) => {
-  return (
+  return
     <Btn>
 <a href={link} aria-label={text} target="_blank" rel="noreferrer">
-{text}  
+{text}
+    <a href={'https://www.binance.com/en/nft/my-nfts/disparattechno-0b912ff682faf6da0863d45e1dbd9500'} aria-label={text} target="_blank" rel="noreferrer" >
+<Btn>{'Discord Coding Community College'}</Btn>
 </a>
     </Btn>
   )
